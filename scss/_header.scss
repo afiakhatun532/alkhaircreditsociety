@@ -38,6 +38,7 @@
 
 .header-main-background-desktop {
     display: none;
+    right: 0;
 }
 
 .telephones {
@@ -103,7 +104,7 @@
 
         &__list {
             margin-bottom: 0;
-            margin-left: 3em;
+            margin-left: 2em;
         }
 
         &__link {
@@ -129,7 +130,7 @@
     }
 
     .header__text {
-        margin: 10em 0 0 8.5em;
+        margin: 10em 20em 0 8.5em;
         order: -1;
         width: 30%;
     }
@@ -151,9 +152,10 @@
 
     .header-main-background-desktop {
         position: absolute;
-        top: -25%;
+        top: -30%;
         right: -28%;
         display: block;
+
     }
 
     .telephones {
